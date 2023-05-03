@@ -1,0 +1,15 @@
+---
+title: "W&B Embedded Report Example"
+---
+
+You can embed a report from W&B into your documentation. This is useful for sharing results from your experiments. To embed a report, you need to [follow these instructions](https://docs.wandb.ai/guides/reports/embed-reports).
+
+You can mix W&B reports and other code blocks in your documentation.
+
+```{python}
+print('some python code')
+```
+
+## The embedded report
+
+<iframe src="https://wandb.ai/johnowhitaker/style_loss_showdown/reports/An-Explanation-of-Style-Transfer-With-a-Showdown-of-Different-Techniques--VmlldzozMDIzNjg0" style="border:none;height:1024px;width:100%">
